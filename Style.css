@@ -1,6 +1,17 @@
-
+HTML CSS Result Skip Results Iframe
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  box-sizing: border-box;
+}
+.container-fluid{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background: #FFF;
+}
 /* ============= Animation background ========= */
-.body{
+.background {
   background: linear-gradient(132deg, #FC415A, #591BC5, #212335);
   background-size: 400% 400%;
   animation: Gradient 15s ease infinite;
