@@ -1,8 +1,8 @@
 /* nav bar code below */
-body {margin:0;}
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
+  background-color: #212335;
 }
 
 .topnav {
@@ -13,7 +13,7 @@ body {
 .topnav a {
   float: left;
   color: #f2f2f2;
-  text-align: center;
+  text-align: center;      
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
@@ -24,10 +24,25 @@ body {
   color: black;
 }
 
+ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  
+}
 
-
-.topnav-right {
+li{
   float: right;
+
+}
+
+li a{
+
+  display: inline;
+  padding: 20px 40px;
+  color: rgb(121, 117, 117);
+  text-decoration: none;
+
 }
 /* end here*/
 /* logo */
@@ -65,19 +80,7 @@ body {
     border-radius: 0;
 }
 /* end of header-content */
-HTML CSS Result Skip Results Iframe
-body {
-  font-family: 'Josefin Sans', sans-serif;
-  box-sizing: border-box;
-}
-.container-fluid{
-  height: 100%;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  background: #FFF;
-}
-/* ============= Animation background ========= */
+ ============= Animation background ========= */
 body{
   background-color: #212335;
   background-size: 400% 400%;
